@@ -4,9 +4,12 @@
   "description": "My own bittorrent client",
   "license": "ISC",
   "author": "Alvar Coll Mutikainen",
-  "type": "commonjs",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bencode": "^4.0.0"
   }
 }
